@@ -1,0 +1,75 @@
+.form-title h3{
+    font-family: var(--fontFamilyManrope);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -2px;
+    color: #000000;
+}
+
+.contact-form {
+    background: #ECFAF8;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    padding: 50px;
+}
+
+.contact-form label{
+    font-family: var(--fontFamilyInter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #757575;
+}
+
+.contact-form input{
+    font-family: var(--fontFamilyInter);
+    background: #fff;
+    border: 1px solid rgba(117, 117, 117, 0.5);
+    border-radius: 8px;
+    height: 56px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #191919;
+}
+
+.contact-form input::placeholder{
+    color: rgba(117, 117, 117, 0.7);
+}
+
+.countrySelect__value-container{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    height: 56px;
+    padding: 0 8px !important;
+}
+
+.form-text{
+    font-family: var(--fontFamilyInter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+
+a.contactBtn{
+    font-family: var(--fontFamilyInter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+    color: #FFFFFF;
+    background: #FF7A00;
+    border: 1px solid #FF7A00;
+    border-radius: 40px;
+    padding: 16px 32px;
+}

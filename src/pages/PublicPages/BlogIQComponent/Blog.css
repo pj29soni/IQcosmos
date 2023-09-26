@@ -1,0 +1,200 @@
+.post-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px 5px rgba(132, 132, 133, 0.15);
+    margin-bottom: 3rem;
+    transition: transform .3s ease;
+    will-change: transform;
+}
+
+.blog-iq-img {
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    box-shadow: rgba(132, 132, 133, 0.15) 0px 15px 40px 5px;
+    transition: transform 0.3s ease 0s;
+    will-change: transform;
+    display: block;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+}
+
+.image-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.blog-iq-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+.image-wrapper:hover img {
+    transform: scale(1.03);
+}
+
+.blog-iq h2{
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+}
+
+.blog-iq h2 a{
+    font-family: var(--fontFamilyPoppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #090C1E;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.blog-iq h2 a:hover{
+    text-decoration-color: #FB2576;
+}
+
+.blog-iq p{
+    font-family: var(--fontFamilyManrope);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #2D3350;
+    margin-bottom: 1.25rem;
+    line-height: 1.8;
+    height: auto;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.post-meta {
+    font-size: .875rem;
+    color: #808495;
+    display: flex;
+    line-height: 1.6;
+}
+
+.post-meta>:not(:last-child) {
+    margin-right: 16px;
+}
+
+.post-meta svg {
+    width: 18px;
+    height: 18px;
+    color: var(--gray-3);
+    margin-right: .25rem;
+    display: inline-flex;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.featured-title h2{
+    font-family: var(--fontFamilyPoppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    color: #090C1E;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+
+.blog-iq2 h2{
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    padding: 0;
+}
+
+.blog-iq2 h2 a {
+    font-family: var(--fontFamilyPoppins);
+    font-style: normal;
+    display: block;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
+.blog-iq2 h2 a:hover{
+    text-decoration-color: #FB2576;
+}
+
+.single-post-card {
+    background-color: #fff;
+    box-shadow: 0 15px 40px 5px rgba(132, 132, 133, 0.15);
+    padding: 2rem;
+    border-radius: 16px;
+}
+
+.blog-iq-details-img{
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    aspect-ratio: 16/9;
+}
+
+.blog-iq-details-img img{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+
+
+.single-blog-iq h2{
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    font-family: var(--fontFamilyPoppins);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 120%;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+}
+
+.single-blog-iq h2 a:hover{
+    text-decoration-color: #FB2576;
+}
+
+.single-blog-iq p{
+    font-family: var(--fontFamilyManrope);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #2D3350;
+    margin-bottom: 1.25rem;
+    line-height: 1.8;
+    height: auto;
+    overflow: hidden;
+}
+
+.blog-plpr{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.recent-ppst{
+    margin-bottom: 2rem;
+}

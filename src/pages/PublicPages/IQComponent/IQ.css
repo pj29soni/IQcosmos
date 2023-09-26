@@ -1,0 +1,496 @@
+.iq-title h3{
+    font-family: var(--fontFamilyManrope);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -2px;
+    color: #000000;
+}
+
+.iq-box {
+    background: #D8F5EF;
+    width: 282px;
+    height: 270px;
+    border-radius: 50%;
+    border: 1px solid #FFCA99;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.iq-box h4 {
+    font-family: var(--fontFamilyInter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    color: #40505F;
+}
+
+.iq-boxIcon::after {
+    content: url('../../../assets/homepage/pen-drawing.png');
+    position: relative;
+    overflow: hidden;
+    z-index: 999;
+    top: 45px;
+    left: 70%;
+}
+
+.iq-btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.start-iq-title {
+    width: 100%;
+    background: #E8EAEC;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.start-iq-title h3 {
+    font-family: var(--fontFamilyManrope);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #000000;
+}
+
+.iq-question, .iq-answer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.iq-question img {
+    width: 100%;
+}
+
+.iq-question h3, .iq-answer h3 {
+    font-family: var(--fontFamilyManrope);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #000000;
+    margin-bottom: 3%;
+}
+
+
+.iq-answer input[type="radio"] {
+    display: none;
+  }
+  
+.iq-answer input[type="radio"] + label {
+    border: 1px solid #ccc;
+    margin: 10px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+  
+.iq-answer input[type="radio"] + label img {
+    width: 100px;
+    height: 100px;
+}
+  
+.iq-answer input[type="radio"]:checked + label{
+    border-color: #ccc;
+    background-color: #e2e5e8;
+}
+
+
+/* .iq-answer input[type="radio"]:checked + label::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0000003d;
+  } */
+
+.iqans {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5%;
+}
+
+.ans-img {
+    display: flex;
+    align-items: center;
+}
+
+.ans-img h4{
+    font-family: var(--fontFamilyManrope);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #40505F;
+}
+
+.ans-img img {
+    padding: 20px;
+}
+
+.ans-img:hover {
+    background: #e2e5e8;
+}
+
+.ans-img.selected {
+    background-color: #e2e5e8;
+  }
+
+.mark-list-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.mark-list-div2{
+    text-align: center;
+}
+
+.mark-list-div2 h4{
+    margin-top: 2%;
+    color: #fff;
+}
+
+.mark-list-div2 ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.mark-list-div2 ul li{
+    color: #fff;
+    font-family: var(--fontFamilyManrope);
+    margin: 5px;
+    border-radius: 3px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+ul.mark-lists {
+    display: flex;
+}
+
+ul.mark-lists li {
+    font-family: var(--fontFamilyManrope);
+    text-align: center;
+    margin: 5px;
+    background: #FFFFFF;
+    border: 1px solid #6AB6A6;
+    border-radius: 3px;
+    width: 43px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.5px;
+    color: #313131;
+}
+
+ul.mark-lists li.mark-box-bg {
+    background: #D8F5EF;
+}
+
+.success-iq {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.success-iq2 {
+    margin-top: 3%;
+}
+
+.success-iq2 h2 {
+    font-family: var(--fontFamilyManrope);
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+    font-weight: 550;
+}
+
+.success-iq h2 {
+    font-family: var(--fontFamilyManrope);
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+    font-weight: 550;
+}
+
+.success-iq h2 span{
+    color: red;
+}
+
+.success-iq h4 {
+    font-family: var(--fontFamilyManrope);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    justify-content: space-around;
+    background: transparent;
+    border: unset;
+}
+
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    margin: 2rem;
+  }
+
+.progress-bar svg {
+    width: 15rem;
+    height: 15rem;
+}
+
+.lists-table {
+    width: 30%;
+    margin: 0 auto;
+}
+
+.lists-table tr td {
+    font-family: var(--fontFamilyManrope);
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+}
+
+  
+.progress {
+    transition: stroke-dasharray 0.5s ease-out;
+}
+
+.progress-value {
+    font-size: 20px;
+    fill: #000;
+    font-weight: bold;
+  }
+
+.checkfinishdiv {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+a.checkfinish {
+    background-color: #FF7A00;
+    border: 1px solid #FF7A00;
+    color: #000;
+    padding: 1.2rem;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+.flash {
+    animation: flash-animation 0.3s ease-in-out;
+}
+
+.errorMsg {
+    height: 24px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+@keyframes flash-animation {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 736px){
+    .iq-boxIcon::after {
+        display: none;
+    }
+
+    ul.mark-lists li {
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+        margin: 5px;
+    }
+
+    .arrow {
+        height: 55px;
+    }
+
+    .iq-answer input[type="radio"] + label img {
+        width: 85px;
+        height: 85px;
+    }
+
+    .iq-answer input[type="radio"] + label {
+        margin: 2px;
+    }
+
+    .contact-form {
+        padding: 15px;
+    }
+
+    .mark-list-div {
+        position: relative;
+        left: -10px;
+    }
+
+    h1.res-title5 {
+        font-size: 22px;
+        line-height: 0;
+    }
+
+    .how-txt h1 br {
+        display: none;
+    }
+
+    .how-txt h1::after {
+        display: none;
+    }
+
+    .countBg {
+        padding: 15px;
+    }
+
+    .mapTitle {
+        font-size: 22px;
+    }
+
+    .rankingPic {
+        height: 385px;
+    }
+
+    .iq-country-slider iframe {
+        height: 300px;
+    }
+
+    .lists-table {
+        width: 75%;
+        margin: 0 auto;
+    }
+    
+    .lists-table tr td {
+        font-size: 14px;
+    }
+
+    .success-iq2 h2 {
+        font-size: 22px;
+    }
+
+    .progress-bar {
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    .progress-bar svg {
+        width: 12rem;
+        height: 12rem;
+    }
+      
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 886px) {
+    
+
+    .iq-question img {
+        width: 70%;
+    }
+.iq-box{
+    background: #D8F5EF;
+    width: 282px;
+    height: 270px;
+    border-radius: 50%;
+    border: 1px solid #FFCA99;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-left: 200px !important;
+}
+    .iq-boxIcon::after {
+        left: 53%;
+    }
+
+    .home-banner-bg {
+        height: 35vh;
+    }
+
+    .background-video {
+        height: 350px;
+    }
+
+    .banner-txt {
+        top: 20%;
+    }
+
+    .arrow {
+        height: 90px;
+    }
+
+  }
+
+  @media (min-width: 1024px) and (max-width: 1199.98px) {
+    .iq-box{
+        background: #D8F5EF;
+        width: 235px;
+        height: 245px;
+        border-radius: 50%;
+        border: 1px solid #FFCA99;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+        
+    }
+    .iq-box h4{
+        font-size: 12px !important;
+    }
+  }

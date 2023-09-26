@@ -1,0 +1,42 @@
+.cr-pp p{
+    font-family: var(--fontFamily);
+    color: var(--black1);
+    font-size: 18px;
+}
+
+.cr-pp ul li{
+    font-family: var(--fontFamily);
+    font-size: 16px;
+}
+
+.cr-pp ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--primaryColor);
+}
+
+.cr-pp ul li a:hover{
+    color: var(--primaryColorHover);
+}
+
+.cr-pp-1 li:first-child {
+    list-style: none;
+    position: relative;
+    left: -20px;
+}
+
+.cr-ppp p{
+    font-size: 16px;
+}
+
+.cr-ppp p a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--primaryColor);
+}
+
+.cr-ppp p a:hover{
+    color: var(--primaryColorHover);
+}
