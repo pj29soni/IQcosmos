@@ -81,7 +81,7 @@ const IQCountrySliderComponent = () => {
                       <div className="flag-text">
                         <h3 className="iqcnme">
                           {flag.firstname}:&nbsp;
-                          {flag.testResultData[0].iqScore}
+                          {flag.iqLevel}
                         </h3>
                         <h5 className="iqcnme2">
                           {new Date(flag.createdAt).toISOString().substr(0, 10)}

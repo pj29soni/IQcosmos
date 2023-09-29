@@ -610,6 +610,11 @@ h5.iqcnme2 {
     src: url(../../assets/matter-font/Matter-Light.otf);
 }
 
+@font-face {
+    font-family: "Minion-Pro-Cond";
+    src: url(../../assets/matter-font/Minion-Pro-Cond.otf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -704,6 +709,137 @@ body {
 
 .downloadBtn:hover {
     color: white;
+}
+
+.certificate-wrapper {
+    overflow-x: scroll;
+}
+
+@media only screen and (min-width: 1080px) {
+    .certificate-wrapper::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.certificate-container {
+    /* background-image: url(../../assets/Certificate/bg.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(202, 202, 202);
+    padding: 20px; */
+    width: 800px;
+    position: relative;
+    height: 1040px;
+}
+
+.certificate-container .bg-img {
+    width: 800px;
+    height: 1040px;
+}
+
+.certificate-container .bg-img img {
+    width: 100%;
+    height: 1040px;
+}
+
+.certificate-container .border-wrapper {
+    /* background-image: url(../../assets/Certificate/cover_border.png);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* width: 750px; */
+    /* height: 1000px; */
+    /* width: 700px;
+    height: 1050px; */
+    /* padding: 45px 65px; */
+
+    position: absolute;
+    top: 0;
+    padding: 90px 60px;
+    width: 800px;
+}
+
+.certificate-container .title-bg {
+    font-family: 'Minion-Pro-Cond';
+    font-size: 80px;
+    line-height: 70px;
+    letter-spacing: 3px;
+    color: #255882;
+}
+
+.certificate-container .title-sm {
+    font-family: 'Minion-Pro-Cond';
+    font-size: 50px;
+    line-height: 40px;
+    color: #255882;
+}
+
+.certificate-container .top-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.certificate-container .top-border img {
+    height: 22px;
+}
+
+.certificate-container .description {
+    font-family: 'Minion-Pro-Cond';
+    font-size: 28px;
+    color: #255882;
+}
+
+.certificate-container .date {
+    font-family: 'Minion-Pro-Cond';
+    font-size: 22px;
+    color: #255882;
+}
+
+.certificate-container .bottom-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.certificate-container .bottom-border img {
+    height: 34px;
+}
+
+.certificate-container .iq-mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificate-container .iq-mark img {
+    height: 150px;
+}
+
+.certificate-container .certificate-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    margin-top: -30px;
+}
+
+.certificate-container .footer-text {
+    font-family: 'Minion-Pro-Cond';
+    font-size: 24px;
+    color: #255882;
+    line-height: 24px;
+}
+
+.certificate-container .certificate-footer .signature_img {
+    height: 55px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
