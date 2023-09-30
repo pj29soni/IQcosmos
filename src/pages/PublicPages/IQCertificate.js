@@ -199,7 +199,7 @@ export default function IQCertificate(props) {
                         <p className='description px-5'>In Recognition For Successful Completion Of The IQ Cosmos Certified Test With The Score of</p>
                     </div>
                     <div className='header text-center mt-4 mb-3'>
-                        <h1 className='title-sm m-0'>{certificate?.iqScore}</h1>
+                        <h1 className='title-sm m-0'>{certificate?.iqLevel}</h1>
                     </div>
                     <div className='text-center'>
                         <p className='date'>{moment(certificate?.createdAt).format('LL')}</p>
@@ -211,7 +211,7 @@ export default function IQCertificate(props) {
                         <div className='text-center'>
                             <p className='footer-text m-0'>IQ cosmos IQ test</p>
                             <p className='footer-text m-0'>Certificate no.</p>
-                            <p className='footer-text m-0'>#123456</p>
+                            <p className='footer-text m-0'>{certificate?.certificateId}</p>
                         </div>
                         <div className='text-center'>
                             <img class="signature_img" src={Signature} alt="Authorized Signature" />s
