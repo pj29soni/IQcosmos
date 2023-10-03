@@ -24,10 +24,23 @@ const IQResListsComponent = () => {
     ],
   };
   const [testTakeListFlag, setTestTakeListFlag] = useState([]);
+
+  function sortByIQLevel(array) {
+    array.sort((a, b) => {
+      if (a.testResultData.newResult < b.testResultData.newResult) return 1;
+      if (a.testResultData.newResult > b.testResultData.newResult) return -1;
+      return 0;
+    });
+
+    return array;
+  }
+
   useEffect(() => {
     fetch(`${process.env.REACT_APP_URL_API}/api/iq-test-list-top-ten`)
       .then((response) => response.json())
-      .then((data) => setTestTakeListFlag(data.enhancedResults));
+      .then((data) => {
+        setTestTakeListFlag(sortByIQLevel(data.enhancedResults))
+      });
   }, []);
 
   return (
@@ -47,7 +60,7 @@ const IQResListsComponent = () => {
         <div className="row mt-3">
           <div className="col col-12">
             <div className="res-table">
-              <table className="table table-responsive table-borderless">
+              <table className="table table-responsive table-borderless table-top-ten">
                 <thead></thead>
                 <tbody>
                   {testTakeListFlag.map((flag) => (

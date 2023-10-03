@@ -842,6 +842,10 @@ body {
     height: 55px;
 }
 
+.table-top-ten tbody td {
+    vertical-align: middle;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 736px) {
 
     .home-banner-bg {
