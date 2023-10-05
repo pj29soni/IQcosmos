@@ -333,6 +333,16 @@ a.checkfinish {
     box-shadow: none;
 }
 
+.btn-back {
+    color: #6c6c6c;
+}
+
+.btn-back:hover {
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
 @keyframes flash-animation {
     0% {
       opacity: 1;

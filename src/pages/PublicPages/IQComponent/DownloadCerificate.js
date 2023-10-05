@@ -73,7 +73,10 @@ export default function DownloadCerificate() {
                                         <div className="form-title">
                                             <h3>Verify with OTP</h3>
                                         </div>
-                                        <div className="contact-form mb-5 mt-3">
+                                        <div className="contact-form mb-5 mt-3 pt-3">
+                                            <div className='pb-3 btn-back' onClick={() => setIsOtpSent(false)}>
+                                                🡨 Back
+                                            </div>
                                             <Formik
                                                 initialValues={initialValues}
                                                 validationSchema={OtpFormSchema}
