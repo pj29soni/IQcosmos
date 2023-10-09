@@ -826,7 +826,7 @@ body {
 .certificate-container .certificate-footer {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: end;
     padding: 0px 40px;
     margin-top: -30px;
 }

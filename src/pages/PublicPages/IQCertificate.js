@@ -214,7 +214,7 @@ export default function IQCertificate(props) {
                             <p className='footer-text m-0'>{certificate?.certificateId}</p>
                         </div>
                         <div className='text-center'>
-                            <img class="signature_img" src={Signature} alt="Authorized Signature" />s
+                            <img class="signature_img" src={Signature} alt="Authorized Signature" />
                             <p className='footer-text m-0'><b>_______________</b></p>
                             <p className='footer-text m-0'>Signature</p>
                         </div>
